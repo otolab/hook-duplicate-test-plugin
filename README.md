@@ -27,8 +27,8 @@ Each hook execution is logged to `~/claude-hook-duplicate-test.log` with:
 ### Method 1: From GitHub (after publishing)
 
 ```bash
-/plugin marketplace add byplayer/hook-duplicate-test-plugin
-/plugin install hook-duplicate-test@byplayer-marketplace
+/plugin marketplace add otolab/hook-duplicate-test-plugin
+/plugin install hook-duplicate-test@otolab-marketplace
 ```
 
 ### Method 2: Local installation
