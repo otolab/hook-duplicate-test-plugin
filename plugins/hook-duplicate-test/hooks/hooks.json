@@ -1,20 +1,37 @@
 {
-  "SessionStart": [
-    {
-      "command": "bash",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh", "SessionStart"]
-    }
-  ],
-  "Notification": [
-    {
-      "command": "bash",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh", "Notification"]
-    }
-  ],
-  "PreCompact": [
-    {
-      "command": "bash",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh", "PreCompact"]
-    }
-  ]
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh SessionStart"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh Notification"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/test-hook.sh PreCompact"
+          }
+        ]
+      }
+    ]
+  }
 }
