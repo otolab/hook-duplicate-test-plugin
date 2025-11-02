@@ -11,14 +11,13 @@ When hooks are registered via plugins, they are **executed twice** with differen
 **Key symptoms:**
 - Each hook execution spawns **two separate processes** (different PIDs)
 - The `/hooks` command shows duplicate hook registrations (e.g., "2 hooks" when only 1 is defined)
-- This has been occurring consistently since the plugin system was implemented
+- This appears to have been occurring since the plugin system was implemented
 - Both executions actually run (verified via log files with different PIDs)
 
 This is **NOT** a display-only issue - the hooks are genuinely executed twice, causing:
 - Duplicate notifications
 - Duplicate audio playback (if hooks trigger sounds)
 - Duplicate file writes/modifications
-- Wasted system resources
 
 ### What Should Happen?
 
@@ -131,10 +130,9 @@ iTerm2 / Terminal.app
 This issue is distinct because it involves **actual duplicate execution** with separate processes, not just display problems.
 
 **Impact:**
-- Medium/High severity for production use
+- Medium severity
 - Causes duplicate side effects (notifications, file writes, audio, etc.)
-- Wastes system resources
-- Has been present since plugin system launch
+- Appears to have been present since plugin system launch
 
 **Test plugin details:**
 - Simple hooks that log timestamp + PID to file
