@@ -4,14 +4,14 @@
     "name": "otolab"
   },
   "metadata": {
-    "description": "Hookの重複テスト用プラグインマーケットプレイス",
+    "description": "Plugin marketplace for testing hook duplication",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "hook-duplicate-test",
       "source": "./plugins/hook-duplicate-test",
-      "description": "フック重複挙動確認用テストプラグイン",
+      "description": "Test plugin to reproduce hook duplicate execution issue",
       "version": "1.0.0",
       "keywords": ["test", "hooks", "duplicate"]
     }
