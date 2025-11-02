@@ -84,7 +84,7 @@ Shows "2 hooks" for PreCompact when only 1 hook is defined in the plugin (see at
 
 **Screenshot of `/hooks` command showing duplicate registration:**
 
-![PreCompact showing 2 hooks when only 1 is defined](evidence-hooks-command.png)
+![PreCompact showing 2 hooks when only 1 is defined](https://raw.githubusercontent.com/otolab/hook-duplicate-test-plugin/main/evidence-hooks-command.png)
 
 As shown in the screenshot, the PreCompact section displays "[Plugin] 2 hooks" even though only one PreCompact hook is defined in the plugin configuration.
 
