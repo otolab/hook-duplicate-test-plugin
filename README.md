@@ -87,3 +87,4 @@ This issue is different - it's actual duplicate **execution**, not just display.
 ## License
 
 MIT
+Issue #10871: https://github.com/anthropics/claude-code/issues/10871
