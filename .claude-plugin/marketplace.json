@@ -1,0 +1,10 @@
+{
+  "name": "otolab-marketplace",
+  "description": "Otolab's Claude Code plugin marketplace",
+  "plugins": [
+    {
+      "name": "hook-duplicate-test",
+      "path": "plugins/hook-duplicate-test"
+    }
+  ]
+}
