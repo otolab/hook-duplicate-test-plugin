@@ -1,7 +1,0 @@
-{
-  "name": "hook-duplicate-test",
-  "version": "1.0.0",
-  "description": "Test plugin to reproduce hook duplicate execution issue",
-  "author": "Naoto Kato",
-  "homepage": "https://github.com/otolab/hook-duplicate-test-plugin"
-}

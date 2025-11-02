@@ -1,0 +1,17 @@
+{
+  "name": "hook-duplicate-test",
+  "version": "1.0.0",
+  "description": "Test plugin to reproduce hook duplicate execution issue",
+  "author": {
+    "name": "otolab"
+  },
+  "homepage": "https://github.com/otolab/hook-duplicate-test-plugin",
+  "repository": "https://github.com/otolab/hook-duplicate-test-plugin",
+  "license": "MIT",
+  "keywords": [
+    "test",
+    "hooks",
+    "duplicate"
+  ],
+  "hooks": "./hooks/hooks.json"
+}
