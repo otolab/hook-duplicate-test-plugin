@@ -1,10 +1,19 @@
 {
-  "name": "otolab-marketplace",
-  "description": "Otolab's Claude Code plugin marketplace",
+  "name": "hook-duplicate-test-marketplace",
+  "owner": {
+    "name": "otolab"
+  },
+  "metadata": {
+    "description": "Hookの重複テスト用プラグインマーケットプレイス",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "hook-duplicate-test",
-      "path": "plugins/hook-duplicate-test"
+      "source": "./plugins/hook-duplicate-test",
+      "description": "フック重複挙動確認用テストプラグイン",
+      "version": "1.0.0",
+      "keywords": ["test", "hooks", "duplicate"]
     }
   ]
 }
